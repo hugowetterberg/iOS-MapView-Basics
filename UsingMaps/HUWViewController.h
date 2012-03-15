@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "HUWMapAnnotation.h"
 
-@interface HUWViewController : UIViewController
+@interface HUWViewController : UIViewController<MKMapViewDelegate, CLLocationManagerDelegate> {
+    @private
+    CLLocationManager *locationManager;
+    CLLocation *currentPosition;
+    __weak HUWMapAnnotation *selectedAnnotation;
+}
+
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end

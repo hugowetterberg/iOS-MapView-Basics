@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9207CFC0150F71B000900CF1 /* HUWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9207CFBF150F71B000900CF1 /* HUWDetailViewController.m */; };
+		9207CFC3150F934400900CF1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9207CFC2150F934400900CF1 /* LICENSE */; };
 		929BEAFA14E7F84E006469AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929BEAF914E7F84E006469AA /* UIKit.framework */; };
 		929BEAFC14E7F84E006469AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929BEAFB14E7F84E006469AA /* Foundation.framework */; };
 		929BEAFE14E7F84E006469AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929BEAFD14E7F84E006469AA /* CoreGraphics.framework */; };
@@ -15,22 +17,34 @@
 		929BEB0A14E7F84E006469AA /* HUWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929BEB0914E7F84E006469AA /* HUWAppDelegate.m */; };
 		929BEB0D14E7F84E006469AA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929BEB0B14E7F84E006469AA /* MainStoryboard.storyboard */; };
 		929BEB1014E7F84E006469AA /* HUWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929BEB0F14E7F84E006469AA /* HUWViewController.m */; };
+		929BEB1914E7F8BC006469AA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929BEB1814E7F8BC006469AA /* MapKit.framework */; };
+		929BEB1B14E7F929006469AA /* readme.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 929BEB1A14E7F929006469AA /* readme.markdown */; };
+		929BEB1D14E80D6D006469AA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929BEB1C14E80D6D006469AA /* CoreLocation.framework */; };
+		929BEB2014E82287006469AA /* HUWMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 929BEB1F14E82287006469AA /* HUWMapAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9207CFBE150F71B000900CF1 /* HUWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUWDetailViewController.h; sourceTree = "<group>"; };
+		9207CFBF150F71B000900CF1 /* HUWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUWDetailViewController.m; sourceTree = "<group>"; };
+		9207CFC2150F934400900CF1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		929BEAF514E7F84E006469AA /* UsingMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929BEAF914E7F84E006469AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		929BEAFB14E7F84E006469AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		929BEAFD14E7F84E006469AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		929BEB0114E7F84E006469AA /* UsingMaps-Info.plist */ = {isa = PBXFileReference; path = "UsingMaps-Info.plist"; sourceTree = "<group>"; };
+		929BEB0114E7F84E006469AA /* UsingMaps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UsingMaps-Info.plist"; sourceTree = "<group>"; };
 		929BEB0314E7F84E006469AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		929BEB0514E7F84E006469AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		929BEB0714E7F84E006469AA /* UsingMaps-Prefix.pch */ = {isa = PBXFileReference; path = "UsingMaps-Prefix.pch"; sourceTree = "<group>"; };
-		929BEB0814E7F84E006469AA /* HUWAppDelegate.h */ = {isa = PBXFileReference; path = HUWAppDelegate.h; sourceTree = "<group>"; };
+		929BEB0714E7F84E006469AA /* UsingMaps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UsingMaps-Prefix.pch"; sourceTree = "<group>"; };
+		929BEB0814E7F84E006469AA /* HUWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUWAppDelegate.h; sourceTree = "<group>"; };
 		929BEB0914E7F84E006469AA /* HUWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUWAppDelegate.m; sourceTree = "<group>"; };
 		929BEB0C14E7F84E006469AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		929BEB0E14E7F84E006469AA /* HUWViewController.h */ = {isa = PBXFileReference; path = HUWViewController.h; sourceTree = "<group>"; };
+		929BEB0E14E7F84E006469AA /* HUWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUWViewController.h; sourceTree = "<group>"; };
 		929BEB0F14E7F84E006469AA /* HUWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUWViewController.m; sourceTree = "<group>"; };
+		929BEB1814E7F8BC006469AA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		929BEB1A14E7F929006469AA /* readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.markdown; sourceTree = SOURCE_ROOT; };
+		929BEB1C14E80D6D006469AA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		929BEB1E14E82287006469AA /* HUWMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUWMapAnnotation.h; sourceTree = "<group>"; };
+		929BEB1F14E82287006469AA /* HUWMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUWMapAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929BEB1D14E80D6D006469AA /* CoreLocation.framework in Frameworks */,
+				929BEB1914E7F8BC006469AA /* MapKit.framework in Frameworks */,
 				929BEAFA14E7F84E006469AA /* UIKit.framework in Frameworks */,
 				929BEAFC14E7F84E006469AA /* Foundation.framework in Frameworks */,
 				929BEAFE14E7F84E006469AA /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +66,7 @@
 		929BEAEA14E7F84E006469AA = {
 			isa = PBXGroup;
 			children = (
+				9207CFC2150F934400900CF1 /* LICENSE */,
 				929BEAFF14E7F84E006469AA /* UsingMaps */,
 				929BEAF814E7F84E006469AA /* Frameworks */,
 				929BEAF614E7F84E006469AA /* Products */,
@@ -67,6 +84,8 @@
 		929BEAF814E7F84E006469AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				929BEB1C14E80D6D006469AA /* CoreLocation.framework */,
+				929BEB1814E7F8BC006469AA /* MapKit.framework */,
 				929BEAF914E7F84E006469AA /* UIKit.framework */,
 				929BEAFB14E7F84E006469AA /* Foundation.framework */,
 				929BEAFD14E7F84E006469AA /* CoreGraphics.framework */,
@@ -83,6 +102,11 @@
 				929BEB0E14E7F84E006469AA /* HUWViewController.h */,
 				929BEB0F14E7F84E006469AA /* HUWViewController.m */,
 				929BEB0014E7F84E006469AA /* Supporting Files */,
+				929BEB1A14E7F929006469AA /* readme.markdown */,
+				929BEB1E14E82287006469AA /* HUWMapAnnotation.h */,
+				929BEB1F14E82287006469AA /* HUWMapAnnotation.m */,
+				9207CFBE150F71B000900CF1 /* HUWDetailViewController.h */,
+				9207CFBF150F71B000900CF1 /* HUWDetailViewController.m */,
 			);
 			path = UsingMaps;
 			sourceTree = "<group>";
@@ -151,6 +175,8 @@
 			files = (
 				929BEB0414E7F84E006469AA /* InfoPlist.strings in Resources */,
 				929BEB0D14E7F84E006469AA /* MainStoryboard.storyboard in Resources */,
+				929BEB1B14E7F929006469AA /* readme.markdown in Resources */,
+				9207CFC3150F934400900CF1 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +190,8 @@
 				929BEB0614E7F84E006469AA /* main.m in Sources */,
 				929BEB0A14E7F84E006469AA /* HUWAppDelegate.m in Sources */,
 				929BEB1014E7F84E006469AA /* HUWViewController.m in Sources */,
+				929BEB2014E82287006469AA /* HUWMapAnnotation.m in Sources */,
+				9207CFC0150F71B000900CF1 /* HUWDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +303,7 @@
 				929BEB1514E7F84E006469AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
