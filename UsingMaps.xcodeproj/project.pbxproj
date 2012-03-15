@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9207CFC0150F71B000900CF1 /* HUWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9207CFBF150F71B000900CF1 /* HUWDetailViewController.m */; };
 		9207CFC3150F934400900CF1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9207CFC2150F934400900CF1 /* LICENSE */; };
+		9273352E15128584003679AC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9273352D15128584003679AC /* README.md */; };
 		929BEAFA14E7F84E006469AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929BEAF914E7F84E006469AA /* UIKit.framework */; };
 		929BEAFC14E7F84E006469AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929BEAFB14E7F84E006469AA /* Foundation.framework */; };
 		929BEAFE14E7F84E006469AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929BEAFD14E7F84E006469AA /* CoreGraphics.framework */; };
@@ -27,6 +28,7 @@
 		9207CFBE150F71B000900CF1 /* HUWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUWDetailViewController.h; sourceTree = "<group>"; };
 		9207CFBF150F71B000900CF1 /* HUWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUWDetailViewController.m; sourceTree = "<group>"; };
 		9207CFC2150F934400900CF1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9273352D15128584003679AC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		929BEAF514E7F84E006469AA /* UsingMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929BEAF914E7F84E006469AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		929BEAFB14E7F84E006469AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,6 +68,7 @@
 		929BEAEA14E7F84E006469AA = {
 			isa = PBXGroup;
 			children = (
+				9273352D15128584003679AC /* README.md */,
 				9207CFC2150F934400900CF1 /* LICENSE */,
 				929BEAFF14E7F84E006469AA /* UsingMaps */,
 				929BEAF814E7F84E006469AA /* Frameworks */,
@@ -177,6 +180,7 @@
 				929BEB0D14E7F84E006469AA /* MainStoryboard.storyboard in Resources */,
 				929BEB1B14E7F929006469AA /* readme.markdown in Resources */,
 				9207CFC3150F934400900CF1 /* LICENSE in Resources */,
+				9273352E15128584003679AC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
